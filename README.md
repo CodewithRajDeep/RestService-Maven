@@ -14,5 +14,15 @@ NetBeans
 /.nb-gradle/
 build/
 !**/src/main/**/build/
-!**/src/test/**/build/  ```
-
+!**/src/test/**/build/
+``` 
+## Plugins needed : 
+SpringBoot Framework with Maven dependencies
+```
+<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+```
+ 
